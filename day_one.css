@@ -1,0 +1,47 @@
+html, body {
+    background: radial-gradient(circle, #039eb3, #05f0f8, #b7e6ee);
+    background-size: 300%;
+    animation: move 10s ease-in-out infinite;
+}
+@keyframes move {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+#container {
+    background: linear-gradient(to top right, #000072, #0000ff, #08ebfc);
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 5px 8px 10px #2984fa;
+    width: 500px;
+}
+#container span {
+    display: block;
+}
+#bold-1 {
+    font-size: 12em;
+    font-family: Georgia;
+    letter-spacing: -15px;
+}
+#bold-2 {
+    font-size: 6em;
+    font-family: Palatino;
+}
+#bold-3 {
+    font-size: 2em;
+    font-family: Courier New;
+    padding-bottom: 50px;
+}
